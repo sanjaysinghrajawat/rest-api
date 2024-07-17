@@ -25,6 +25,7 @@ This API provides endpoints to manage a collection of products, including retrie
 ### Get Products with Query
 **Endpoint:** `GET /q`
 **Description:** Retrieves products based on query parameters such as company, name, rating, sort, select, page, and limit.
+
 *Query Parameters:*
 company (optional) - Filter by company name.
 name (optional) - Filter by product name (supports partial matches, case-insensitive).
